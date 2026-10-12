@@ -228,6 +228,7 @@ jobs:
       - name: 13. Install OpenCode V2, restore state, configure MCPs + Superpowers plugin & start serve
         env:
           OPENCODE_SERVER_PASSWORD: ${{ secrets.RUNNER_PASSWORD }}
+          OPENCODE_DISABLE_AUTOUPDATE: "true"
           GH_TOKEN: ${{ secrets.MY_PAT }}
         run: |
           # 1. Install OpenCode V2 — npm package @opencode/cli (the v1
@@ -342,6 +343,10 @@ jobs:
               except Exception:
                   cfg = {}
           cfg.setdefault("$schema", "https://opencode.ai/config.json")
+          # Autoupdate stays OFF: the runner is ephemeral, so an
+          # /update could never persist, and the update banner
+          # only adds noise when a release lands mid-run.
+          cfg["autoupdate"] = False
           # The default model is PER-INSTANCE and comes from the
           # OPENCODE_DEFAULT_MODELS repository variable (repo
           # Settings > Secrets and variables > Actions > Variables):
