@@ -507,9 +507,12 @@ jobs:
           #     ling-3.1-flash-free was REMOVED from Zen (the librarian
           #     had to move), deepseek-v4.1-flash-free and
           #     glm-5.3-flash-free are new zero-retention flash models,
-          #     and cat-jam-free (1M, no training) is the designer —
+          #     and beam-free (1M, no training) is the designer —
           #     Zen is called from the runner, so its country list
           #     does not apply to this setup (Mehdi, 2026-10-16).
+          #     2026-10-17: beam-free is Reflection Beam, the
+          #     de-stealthed successor of cat-jam-free (deprecated,
+          #     gone from the live Zen list); same interface.
           python3 - <<'PYEOF3'
           import json, os
           path = os.path.expanduser("~/.config/opencode/oh-my-opencode-slim.json")
@@ -525,7 +528,7 @@ jobs:
               "explorer": "opencode/glm-5.3-flash-free",
               "fixer": "opencode/deepseek-v4.1-flash-free",
               "librarian": "opencode/glm-5.3-flash-free",
-              "designer": "opencode/cat-jam-free",
+              "designer": "opencode/beam-free",
               "council": "opencode/nemotron-3-ultra-free",
           }
           free_preset = cfg.setdefault("presets", {}).setdefault("free", {})
