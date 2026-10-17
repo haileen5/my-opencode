@@ -1,0 +1,13 @@
+.
+..
+codebase-memory-mcp
+composer
+opencode
+---
+.env
+.env-example-github
+.env.e2e.example
+.env.example
+.env.example.mysql
+.env.example.pgsql
+.env.testing
