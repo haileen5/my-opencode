@@ -1,0 +1,6 @@
+resources/views/livewire/tickets/⚡inbox.blade.php:21:new class extends Component
+resources/views/livewire/tickets/⚡monitoring.blade.php:16:new class extends Component
+Note: Using configuration file /home/runner/.local/share/opencode/worktree/a5780e/1055-rebase-beta/phpstan.neon.
+
+ [OK] No errors                                                                 
+

@@ -1,0 +1,7 @@
+=== class lines now ===
+resources/views/livewire/tickets/⚡inbox.blade.php:21:new class extends Component
+resources/views/livewire/tickets/⚡monitoring.blade.php:16:new class extends Component
+=== status ===
+ M .env.testing
+ M "resources/views/livewire/tickets/\342\232\241inbox.blade.php"
+ M "resources/views/livewire/tickets/\342\232\241monitoring.blade.php"

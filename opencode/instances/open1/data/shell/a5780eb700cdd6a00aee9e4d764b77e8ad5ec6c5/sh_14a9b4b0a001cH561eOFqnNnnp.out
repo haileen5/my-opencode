@@ -1,0 +1,35 @@
+  [32;1m✓[39;22m[90m [39m[90madvanced report status options round trip with predicates[39m[90m           [39m [90m0.14s[39m  
+  [32;1m✓[39;22m[90m [39m[90madvanced report tickets accepted and rejected are filterable[39m[90m        [39m [90m0.17s[39m  
+  [32;1m✓[39;22m[90m [39m[90madvanced report switching report type resets status filter[39m[90m          [39m [90m0.13s[39m  
+  [32;1m✓[39;22m[90m [39m[90madvanced report has units loaded[39m[90m                                    [39m [90m0.10s[39m  
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\TicketsPagesTest[39m
+  [32;1m✓[39;22m[90m [39m[90mtickets inbox renders tickets assigned to user[39m[90m                      [39m [90m0.20s[39m  
+  [32;1m✓[39;22m[90m [39m[90mticket model helpers return expected values[39m[90m                         [39m [90m0.09s[39m  
+  [32;1m✓[39;22m[90m [39m[90mtickets pages are protected by RBAC[39m[90m                                 [39m [90m0.10s[39m  
+  [32;1m✓[39;22m[90m [39m[90mmonitoring page renders tickets and displays Persian status[39m[90m         [39m [90m0.13s[39m  
+  [32;1m✓[39;22m[90m [39m[90mcreating ticket persists data[39m[90m                                       [39m [90m0.33s[39m  
+  [31m────────────────────────────────────────────────────────────────────────────[39m  
+  [41;1m FAILED [49;22m [1mTests\Feature\AppKeyGuardWiringTest[22m [90m>[39m the real repository index f…   
+[39;1m  this test needs a real git index
+Failed asserting that file "/home/runner/.local/share/opencode/worktree/a5780e/1055-rebase-beta/.git/index" exists.[39;22m
+
+  at [32mtests/Feature/AppKeyGuardWiringTest.php[39m:[32m135[39m
+    131▕     {
+    132▕         $root = base_path();
+    133▕         $realIndex = $root.'/.git/index';
+    134▕ 
+  ➜ 135▕         $this->assertFileExists($realIndex, 'this test needs a real git index');
+    136▕ 
+    137▕         $alternate = $this->sandbox.'/index';
+    138▕ 
+    139▕         copy($realIndex, $alternate);
+
+  [33m1   [39m[39;1mtests/Feature/AppKeyGuardWiringTest.php[39;22m:[39;1m135[39;22m
+
+
+  [90mTests:[39m    [31;1m1 failed[39;22m[90m,[39m[39m [39m[33;1m2 risky[39;22m[90m,[39m[39m [39m[32;1m2441 passed[39;22m[90m (7538 assertions)[39m
+  [90mDuration:[39m [39m483.88s[39m
+  [90mRandom Order Seed:[39m [39m1792253054[39m
+
+Script php scripts/ensure-test-app-key.php && php artisan config:clear && php artisan route:clear && XDEBUG_MODE=off php artisan test handling the test event returned with error code 1

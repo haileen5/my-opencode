@@ -1,0 +1,4 @@
+18:| `pre-push` | **Full** PHPStan; tests only if `VERIFY_TESTS` names them | Deterministic with the baseline |
+129:| phpstan-baseline is line-keyed | Its entries embed line numbers, so inserting even a comment into a baselined file "unmatches" its entries (`ignore.unmatched` errors). After editing baselined code, run `vendor/bin/phpstan analyse --generate-baseline`, then verify `git diff phpstan-baseline.neon` shows **0 additions** — an addition means a real new error got suppressed |
+132:| `DailySeries` needs explicit generics | `Eloquent\Builder` in a signature without a `TModel` produces `missingType.generics` at level 6. Annotate `@param EloquentBuilder<covariant Model>|QueryBuilder` — otherwise the fix gets buried in `phpstan-baseline.neon` |
+158:- All **26** Eloquent models under `app/Models/` carry `@property` PHPDoc annotations (#671) — update the annotation when a column/cast changes; PHPStan level 6 + baseline depends on them.

@@ -1,6 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "model": "opencode/fledge-alpha-free",
+  "model": "opencode/space-bunny-free",
   "mcp": {
     "laravel-boost": {
       "type": "local",
