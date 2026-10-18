@@ -1,0 +1,8 @@
+Configuration: /home/runner/h-dashboard/phpunit.xml
+Random Seed:   1792351026
+
+....                                                                4 / 4 (100%)
+
+Time: 00:00.157, Memory: 50.50 MB
+
+[30;42mOK (4 tests, 9 assertions)[0m

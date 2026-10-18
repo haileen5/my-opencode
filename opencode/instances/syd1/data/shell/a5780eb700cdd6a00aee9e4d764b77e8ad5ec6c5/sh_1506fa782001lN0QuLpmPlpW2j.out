@@ -1,0 +1,24 @@
+app/Http/Middleware/LastUserActivity.php
+bootstrap/app.php
+tests/Feature/LastUserActivityMiddlewareTest.php
+tests/Feature/LastUserActivityRemovalWiringTest.php
+---
+0
+---
+ls: cannot access 'plans/README.md': No such file or directory
+---
+001-disease-map-system-spec.md
+---
+
+        Schema::create('sessions', function (Blueprint $table) {
+            $table->string('id')->primary();
+            $table->foreignId('user_id')->nullable()->index();
+            $table->string('ip_address', 45)->nullable();
+            $table->text('user_agent')->nullable();
+            $table->longText('payload');
+            $table->integer('last_activity')->index();
+        });
+    }
+
+    public function down(): void
+    {

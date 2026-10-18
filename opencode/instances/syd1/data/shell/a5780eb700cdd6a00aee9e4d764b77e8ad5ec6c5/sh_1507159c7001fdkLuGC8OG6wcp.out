@@ -1,0 +1,6 @@
+tests/Feature/AppKeyGuardWiringTest.php:21:class AppKeyGuardWiringTest extends TestCase
+tests/Feature/LastUserActivityRemovalWiringTest.php:19: * `AppKeyGuardWiringTest` / its #935 dead-test-file precedent: re-adding the
+===
+1
+===
+0

@@ -1,0 +1,11 @@
+#6 /home/runner/h-dashboard/vendor/phpunit/phpunit/src/TextUI/Application.php(389): PHPUnit\TextUI\Configuration\TestSuiteBuilder->build()
+#7 /home/runner/h-dashboard/vendor/phpunit/phpunit/src/TextUI/Application.php(196): PHPUnit\TextUI\Application->buildTestSuite()
+#8 /home/runner/h-dashboard/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run()
+#9 /home/runner/h-dashboard/vendor/bin/phpunit(122): include('...')
+#10 {main}
+===
+ - Tests\Feature\TestAppKeyBootstrapTest::test_it_leaves_every_other_line_untouched
+ - Tests\Feature\TestAppKeyBootstrapTest::test_it_never_prints_the_key
+ - Tests\Feature\TestAppKeyBootstrapTest::test_a_missing_test_env_file_fails_the_precondition_instead_of_writing_one
+ - Tests\Feature\TestAppKeyBootstrapTest::test_it_agrees_with_the_leak_guard_about_what_counts_as_empty
+ - Tests\Feature\TestAppKeyBootstrapTest::test_the_composer_test_chain_bootstraps_the_key_before_running
