@@ -1,4 +1,0 @@
-=== permission check on upstream (dry-run push) ===
-remote: Permission to asgarimehdi/h-dashboard.git denied to haileen5.
-fatal: unable to access 'https://github.com/asgarimehdi/h-dashboard.git/': The requested URL returned error: 403
-exit=128

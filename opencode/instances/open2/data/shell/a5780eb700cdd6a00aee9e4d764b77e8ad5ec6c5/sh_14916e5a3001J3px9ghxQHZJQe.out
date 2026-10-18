@@ -1,2 +1,0 @@
-cp: cannot stat '.env.e2e': No such file or directory
-[e2e] .env restored

@@ -1,7 +1,0 @@
-Switched to a new branch 'docs/adr-0001-architecture-overview'
-
-=== verify branch points at my commit ===
-3d9bae7 docs: add ADR 0001 — architecture overview of the code as indexed
-
-=== working tree clean for my file? ===
- M package-lock.json

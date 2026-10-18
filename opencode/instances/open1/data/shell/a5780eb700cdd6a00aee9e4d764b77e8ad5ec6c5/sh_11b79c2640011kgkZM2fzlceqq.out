@@ -1,3 +1,0 @@
-[open1 3d9bae7] docs: add ADR 0001 — architecture overview of the code as indexed
- 1 file changed, 132 insertions(+)
- create mode 100644 docs/adr/0001-architecture-overview.md

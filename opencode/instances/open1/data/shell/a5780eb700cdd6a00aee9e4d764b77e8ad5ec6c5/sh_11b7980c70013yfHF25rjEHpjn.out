@@ -1,9 +1,0 @@
-From https://github.com/haileen5/h-dashboard
- * branch            beta       -> FETCH_HEAD
-=== sync vs origin/beta ===
-behind 0  ahead 0
-
-From https://github.com/haileen5/h-dashboard
- * branch            beta       -> FETCH_HEAD
-behind 0, ahead 0 — برنچ از origin/beta جلوتر یا هم‌تراز است (ancestor: بله).
-همگام است؛ کاری لازم نیست.

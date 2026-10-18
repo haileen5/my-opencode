@@ -1,4 +1,0 @@
-✅ Preflight passed — this machine can run the suite.
-{"tool":"pint","result":"passed"}
-  [90mTests:[39m    [32;1m5 passed[39;22m[90m (24 assertions)[39m
-✅ verify passed — this matches CI's test job. Coverage is still CI-only.
