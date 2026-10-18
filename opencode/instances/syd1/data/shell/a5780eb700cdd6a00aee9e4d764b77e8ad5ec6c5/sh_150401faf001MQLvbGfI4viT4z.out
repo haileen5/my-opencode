@@ -1,0 +1,4 @@
+f82d176b Add a trigram index on persons.n_code so the four-branch search OR can bitmap
+---
+ M composer.lock
+ M package-lock.json

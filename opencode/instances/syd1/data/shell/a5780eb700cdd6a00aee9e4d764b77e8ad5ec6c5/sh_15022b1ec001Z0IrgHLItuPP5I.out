@@ -1,0 +1,20 @@
+Failed asserting that null is not null.[39;22m
+
+  at [32mtests/Feature/PersonSearchIndexTest.php[39m:[32m217[39m
+    213▕             'select indexdef from pg_indexes where schemaname = ? and tablename = ? and indexname = ?',
+    214▕             ['public', 'persons', 'idx_persons_n_code_trgm']
+    215▕         );
+    216▕ 
+  ➜ 217▕         $this->assertNotNull($row, 'migration 2026_10_18_000001 must create idx_persons_n_code_trgm: without it the n_code arm of the four-branch search OR is unindexed and no BitmapOr can form');
+    218▕         $this->assertStringContainsString('USING gin (n_code gin_trgm_ops)', $row->indexdef);
+    219▕     }
+    220▕ 
+    221▕     public function test_n_code_substring_search_matches_through_person_api(): void
+
+  [33m1   [39m[39;1mtests/Feature/PersonSearchIndexTest.php[39;22m:[39;1m217[39;22m
+
+
+  [90mTests:[39m    [31;1m1 failed[39;22m[90m,[39m[39m [39m[32;1m10 passed[39;22m[90m (27 assertions)[39m
+  [90mDuration:[39m [39m2.01s[39m
+  [90mRandom Order Seed:[39m [39m1792345813[39m
+

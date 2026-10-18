@@ -1,0 +1,6 @@
+{"tool":"pint","result":"passed"}
+Note: Using configuration file /home/runner/.local/share/opencode/worktree/a5780e/issue-1126/phpstan.neon.
+ [OK] No errors                                                                 
+  [32;1m✓[39;22m[90m [39m[90mthe pre commit hook never runs phpstan or the suite[39m[90m                 [39m [90m0.01s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe pre commit hook runs pint on staged files only[39m[90m                  [39m [90m0.01s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe pre push hook runs the whole phpstan analysis[39m[90m                   [39m [90m0.01s[39m  

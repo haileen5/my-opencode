@@ -1,0 +1,11 @@
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\VerifyWrapperScriptTest[39m
+=== #890 round-trip drift ===
+  [32;1m✓[39;22m[90m [39m[90mthe pre commit hook never runs phpstan or the suite[39m[90m                 [39m [90m0.01s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe pre push hook runs the whole phpstan analysis[39m[90m                   [39m [90m0.01s[39m  
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\VerifyPreflightTest[39m
+EXIT=1
+Failed asserting that file "/home/runner/.local/share/opencode/worktree/a5780e/issue-1126/.git/index" exists.[39;22m
+  [90mTests:[39m    [31;1m1 failed[39;22m[90m,[39m[39m [39m[33;1m2 risky[39;22m[90m,[39m[39m [39m[32;1m2516 passed[39;22m[90m (7846 assertions)[39m
+Script php scripts/ensure-test-app-key.php && php artisan config:clear && php artisan route:clear && XDEBUG_MODE=off php artisan test handling the test event returned with error code 1
+Script bash scripts/verify.sh handling the verify event returned with error code 1
+EXIT=1
