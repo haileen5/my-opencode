@@ -1,0 +1,11 @@
+PR: 1204 perf: defer hardware row selection and debounce the n_code lookup (#1175)
+base: beta | head: haileen5:perf/1175-hardware-interaction-round-trips
+state: OPEN | mergeable: MERGEABLE
+body starts: 'Closes #1175\n\n## (a) The national-code f'
+=== files ===
+resources/views/livewire/hardware/_form-create.blade.php
+resources/views/livewire/hardware/_toolbar.blade.php
+resources/views/livewire/hardware/table.blade.php
+tests/Feature/HardwareIndexLivewireTest.php
+tests/Feature/HardwareTableLivewireTest.php
+tests/e2e/hardware/bulk.spec.ts

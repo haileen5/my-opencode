@@ -1,0 +1,9 @@
+26:        <env name="APP_ENV" value="testing"/>
+27:        <env name="DB_CONNECTION" value="pgsql"/>
+28:        <env name="DB_HOST" value="127.0.0.1"/>
+29:        <env name="DB_PORT" value="5432"/>
+30:        <env name="DB_DATABASE" value="h_dashboard_test"/>
+31:        <env name="CACHE_STORE" value="array" force="true"/>
+32:        <env name="CACHE_DRIVER" value="array" force="true"/>
+33:        <env name="SESSION_DRIVER" value="array" force="true"/>
+34:        <env name="QUEUE_CONNECTION" value="sync" force="true"/>

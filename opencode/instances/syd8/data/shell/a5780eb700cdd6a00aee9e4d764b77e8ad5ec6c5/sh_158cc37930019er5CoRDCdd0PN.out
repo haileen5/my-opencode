@@ -1,0 +1,2 @@
+resources/views/livewire/users/index.blade.php:656:                        <x-input wire:model.live.debounce.500ms="person_search" type="text" class="input input-bordered w-full" label="کد ملی"
+resources/views/livewire/units/chart.blade.php:142:                    wire:model.live.debounce.500ms="search"
