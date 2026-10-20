@@ -1,9 +1,0 @@
-NOT IGNORED
- M .env.testing
- M resources/views/livewire/hardware/_form-create.blade.php
- M resources/views/livewire/hardware/_toolbar.blade.php
- M resources/views/livewire/hardware/table.blade.php
- M tests/Feature/HardwareIndexLivewireTest.php
- M tests/Feature/HardwareTableLivewireTest.php
- M tests/e2e/hardware/bulk.spec.ts
-?? .scratch/1175-plan.md

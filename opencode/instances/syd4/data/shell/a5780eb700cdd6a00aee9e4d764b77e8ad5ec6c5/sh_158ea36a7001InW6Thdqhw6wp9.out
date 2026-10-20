@@ -1,6 +1,0 @@
-[perf/1171-unit-tree-picker-render-on-open b5519051] perf: build the unit tree only while its modal is open (#1171)
- 5 files changed, 192 insertions(+), 25 deletions(-)
-b5519051 perf: build the unit tree only while its modal is open (#1171)
-86720e90 Merge pull request #1161 from asgarimehdi/docs/move-disease-map-spec-to-discussions
- M composer.lock
- M package-lock.json
