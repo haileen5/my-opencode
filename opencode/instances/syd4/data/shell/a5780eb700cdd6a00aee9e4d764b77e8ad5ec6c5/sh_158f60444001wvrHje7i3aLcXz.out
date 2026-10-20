@@ -1,0 +1,13 @@
+Code Style (Pint)	pass	3m7s	https://github.com/asgarimehdi/h-dashboard/actions/runs/39410719626/job/118587524774	
+Coverage Report (Blade-aware, informational)	pass	15s	https://github.com/asgarimehdi/h-dashboard/actions/runs/39410719626/job/118590122377	
+PHP 8.6 Preview (non-blocking)	pass	5m19s	https://github.com/asgarimehdi/h-dashboard/actions/runs/39410719626/job/118587525020	
+Tests & Coverage	pass	6m47s	https://github.com/asgarimehdi/h-dashboard/actions/runs/39410719626/job/118587524562	
+Typecheck (Playwright specs, informational)	pass	13s	https://github.com/asgarimehdi/h-dashboard/actions/runs/39410719626/job/118587524964	
+E2E Tests (Playwright)	pending	0	https://github.com/asgarimehdi/h-dashboard/actions/runs/39410719626/job/118587524941	
+PHPStan Static Analysis	pass	30s	https://github.com/asgarimehdi/h-dashboard/actions/runs/39410719626/job/118587524851	
+Mutation Testing	skipping	0	https://github.com/asgarimehdi/h-dashboard/actions/runs/39410719626/job/118587533317	
+=== local tree ===
+ M composer.lock
+ M package-lock.json
+2f45c9d3 perf: build the unit tree only while its modal is open (#1171)
+86720e90 Merge pull request #1161 from asgarimehdi/docs/move-disease-map-spec-to-discussions

@@ -1,0 +1,14 @@
+[perf/1171-unit-tree-picker-render-on-open 2f45c9d3] perf: build the unit tree only while its modal is open (#1171)
+ Date: Tue Oct 20 10:45:06 2026 +0000
+ 5 files changed, 193 insertions(+), 26 deletions(-)
+2f45c9d3 perf: build the unit tree only while its modal is open (#1171)
+86720e90 Merge pull request #1161 from asgarimehdi/docs/move-disease-map-spec-to-discussions
+2f45c9d32082840f0fa759e82e5f7a4fc16ee37e
+perf: build the unit tree only while its modal is open (#1171)
+
+ .../views/livewire/kargozini/person.blade.php      | 42 ++++++----
+ .../livewire/partials/unit-tree-picker.blade.php   |  1 +
+ resources/views/livewire/users/index.blade.php     | 24 ++++--
+ tests/Feature/Kargozini/PersonLivewireTest.php     | 57 ++++++++++++-
+ tests/Feature/UsersManagementTest.php              | 95 +++++++++++++++++++++-
+ 5 files changed, 193 insertions(+), 26 deletions(-)

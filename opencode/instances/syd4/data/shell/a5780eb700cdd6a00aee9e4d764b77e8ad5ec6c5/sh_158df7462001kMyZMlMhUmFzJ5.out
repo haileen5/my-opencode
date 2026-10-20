@@ -1,0 +1,4 @@
+--- tail ---
+  [32;1m✓[39;22m[90m [39m[90mchange password revokes all tokens[39m[90m                                  [39m [90m1.09s[39m  
+  [32;1m✓[39;22m[90m [39m[90mchange password success[39m[90m                                             [39m [90m1.54s[39m  
+  [32;1m✓[39;22m[90m [39m[90mchange password fails with wrong current[39m[90m                            [39m [90m0.38s[39m  

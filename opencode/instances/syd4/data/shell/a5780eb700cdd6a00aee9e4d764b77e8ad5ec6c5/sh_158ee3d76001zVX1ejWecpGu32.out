@@ -1,0 +1,9 @@
+remote: 
+remote: Create a pull request for 'perf/1171-unit-tree-picker-render-on-open' on GitHub by visiting:        
+remote:      https://github.com/haileen5/h-dashboard/pull/new/perf/1171-unit-tree-picker-render-on-open        
+remote: 
+To https://github.com/haileen5/h-dashboard.git
+ * [new branch]        HEAD -> perf/1171-unit-tree-picker-render-on-open
+  main                                      2e624be1 [origin/main] Merge pull request #825 from asgarimehdi/beta
+* perf/1171-unit-tree-picker-render-on-open 2f45c9d3 perf: build the unit tree only while its modal is open (#1171)
+  syd4                                      86720e90 [origin/beta: ahead 2] Merge pull request #1161 from asgarimehdi/docs/move-disease-map-spec-to-discussions

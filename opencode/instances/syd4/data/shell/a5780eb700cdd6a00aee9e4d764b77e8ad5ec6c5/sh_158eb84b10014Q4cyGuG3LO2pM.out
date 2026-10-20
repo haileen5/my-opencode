@@ -1,0 +1,49 @@
+ls: cannot access 'pint.json': No such file or directory
+-rw-r--r-- 1 runner runner 298 Oct 20 08:36 .pint.json
+=== CI lint job ===
+jobs:
+  lint:
+    name: Code Style (Pint)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+          tools: composer:latest
+
+      - name: Cache Composer download cache
+        uses: actions/cache@v5
+        with:
+          path: ~/.cache/composer/files
+          key: composer-${{ runner.os }}-${{ hashFiles('composer.lock') }}
+          restore-keys: |
+            composer-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: composer install --prefer-dist --no-interaction --no-progress
+
+      - name: Assert the lock is present and current
+        run: |
+          test -f composer.lock
+          composer validate --strict --check-lock
+          git diff --exit-code -- composer.lock
+
+      # Issue #953. A tracked env file committed with a real APP_KEY leaks the
+      # master secret: it encrypts session payloads and signs the cookie MAC,
+      # so anyone holding it can mint a cookie for any account. Blanking the
+      # four files that carried one prevents recurrence; this is what stops it
+      # coming back — and it runs here because `lint` is the cheapest blocking
+      # job, so a leak fails a PR in seconds rather than after the suite.
+      - name: Assert no tracked env file commits an APP_KEY
+        run: php scripts/check-app-key-leak.php
+
+      - name: Check code style
+        run: vendor/bin/pint --test
+
+  test:
