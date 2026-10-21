@@ -1,0 +1,12 @@
+github.com
+  ✓ Logged in to github.com account haileen5 (GH_TOKEN)
+  - Active account: true
+  - Git operations protocol: https
+  - Token: ghp_************************************
+  - Token scopes: 'audit_log', 'notifications', 'project', 'read:network_configurations', 'read:org', 'read:packages', 'read:repo_hook', 'read:user', 'repo', 'workflow', 'write:discussion'
+
+  ✓ Logged in to github.com account haileen5 (/home/runner/.config/gh/hosts.yml)
+  - Active account: false
+  - Git operations protocol: https
+origin	https://github.com/haileen5/h-dashboard.git (fetch)
+origin	https://github.com/haileen5/h-dashboard.git (push)

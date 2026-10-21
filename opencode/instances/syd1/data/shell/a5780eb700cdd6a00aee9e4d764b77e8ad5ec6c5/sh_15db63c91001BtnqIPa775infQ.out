@@ -1,0 +1,7 @@
+1423-			path: app/Models/TicketComment.php
+1424-
+1425-		-
+1426:			message: '#^Method App\\Models\\TicketComment\:\:children\(\) should return Illuminate\\Database\\Eloquent\\Relations\\HasMany but returns Illuminate\\Database\\Eloquent\\Builder\<App\\Models\\TicketComment\>\.$#'
+1427-			identifier: return.type
+1428-			count: 1
+1429-			path: app/Models/TicketComment.php

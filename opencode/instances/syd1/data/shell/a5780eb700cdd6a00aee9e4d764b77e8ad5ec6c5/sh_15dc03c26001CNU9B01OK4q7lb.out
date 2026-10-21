@@ -1,0 +1,34 @@
+3271:  [90mTests:[39m    [31;1m1 failed[39;22m[90m,[39m[39m [39m[33;1m2 risky[39;22m[90m,[39m[39m [39m[32;1m2655 passed[39;22m[90m (8574 assertions)[39m
+  [32;1m✓[39;22m[90m [39m[90mestekhdam allows mass assignment[39m[90m                                    [39m [90m0.08s[39m  
+  [32;1m✓[39;22m[90m [39m[90msemat allows mass assignment[39m[90m                                        [39m [90m0.09s[39m  
+  [32;1m✓[39;22m[90m [39m[90mestekhdam has many persons[39m[90m                                          [39m [90m0.10s[39m  
+  [32;1m✓[39;22m[90m [39m[90mradif has many persons[39m[90m                                              [39m [90m0.11s[39m  
+  [32;1m✓[39;22m[90m [39m[90mradif allows mass assignment[39m[90m                                        [39m [90m0.08s[39m  
+  [32;1m✓[39;22m[90m [39m[90mtahsil has many persons[39m[90m                                             [39m [90m0.10s[39m  
+  [32;1m✓[39;22m[90m [39m[90mtahsil allows mass assignment[39m[90m                                       [39m [90m0.08s[39m  
+  [31m────────────────────────────────────────────────────────────────────────────[39m  
+  [41;1m FAILED [49;22m [1mTests\Unit\PhpConstraintTest[22m [90m>[39m exactly three locked packages bloc…   
+[39;1m  Failed asserting that two arrays are identical.
+  [39;22m[32m Array &0 [[39m[39;1m
+  [39;22m[32m     'brianium/paratest' => 'dev',[39m[39;1m
+  [39;22m[31m-    'nette/schema' => 'production',[39m[39;1m
+  [39;22m[31m-    'nette/utils' => 'production',[39m[39;1m
+  [39;22m[32m ][39m[39;1m
+  [39;22m
+
+  at [32mtests/Unit/PhpConstraintTest.php[39m:[32m53[39m
+     49▕     return $blocking;
+     50▕ }
+     51▕ 
+     52▕ test('exactly three locked packages block PHP 8.6', function () {
+  ➜  53▕     expect(php86BlockingPackages(base_path('composer.lock')))->toBe([
+     54▕         'brianium/paratest' => 'dev',
+     55▕         'nette/schema' => 'production',
+     56▕         'nette/utils' => 'production',
+     57▕     ]);
+
+  [33m1   [39m[39;1mtests/Unit/PhpConstraintTest.php[39;22m:[39;1m53[39;22m
+
+
+  [90mTests:[39m    [31;1m1 failed[39;22m[90m,[39m[39m [39m[33;1m2 risky[39;22m[90m,[39m[39m [39m[32;1m2655 passed[39;22m[90m (8574 assertions)[39m
+  [90mDuration:[39m [39m559.70s[39m

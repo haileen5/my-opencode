@@ -1,0 +1,6 @@
+  [32;1m✓[39;22m[90m [39m[90mconfirmation updates existing record matched by mac[39m[90m                 [39m [90m0.05s[39m  
+  [32;1m✓[39;22m[90m [39m[90mpreview pass without actions persists nothing[39m[90m                       [39m [90m0.05s[39m  
+  [32;1m✓[39;22m[90m [39m[90midentical clean at is not reported as a change[39m[90m                      [39m [90m0.06s[39m  
+  [32;1m✓[39;22m[90m [39m[90mclean at accepts iso date and nulls other formats[39m[90m                   [39m [90m0.06s[39m  
+  [32;1m✓[39;22m[90m [39m[90mexport then reimport preserves clean at[39m[90m                             [39m [90m0.06s[39m  
+206

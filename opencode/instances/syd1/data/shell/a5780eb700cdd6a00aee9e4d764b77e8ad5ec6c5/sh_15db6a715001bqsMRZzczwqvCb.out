@@ -1,0 +1,5 @@
+130:            $boundaryId = DB::table('boundaries')->insertGetId([
+136:            Unit::where('id', $unitId)->update(['boundary_id' => $boundaryId]);
+139:        $this->command?->info('Created '.count($boundaries).' boundaries for center units.');
+57:        $this->command?->info('Seeding hardware audit history for '.count($records).' devices...');
+108:        $this->command?->info("Hardware history seeded: {$inserted} new audit entries".($skipped ? ", {$skipped} devices skipped (not found)." : '.'));

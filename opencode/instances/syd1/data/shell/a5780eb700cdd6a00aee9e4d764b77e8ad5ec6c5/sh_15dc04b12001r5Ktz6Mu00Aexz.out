@@ -1,0 +1,8 @@
+177:  [32;1m✓[39;22m[90m [39m[90msync exits 1 and warns when item ids are not configured[39m[90m             [39m [90m0.08s[39m  
+352:  [32;1m✓[39;22m[90m [39m[90ma passing preflight warns when hooks are not active[39m[90m                 [39m [90m0.04s[39m  
+438:  [30;43;1m WARN [39;49;22m[39m Tests\Feature\HardwareIndexLivewireTest[39m
+439:  [33;1m![39;22m[90m [39m[90mbulk delete empty does nothing[39m[90m [39m[33m→ This test did not perform any asse[39m[90m…[39m [90m0.19s[39m  
+451:  [33;1m![39;22m[90m [39m[90mbulk mark empty shows error[39m[90m [39m[33m→ This test did not perform any asserti[39m[90m…[39m [90m0.19s[39m  
+1538:  [32;1m✓[39;22m[90m [39m[90mexecute bulk action only completed warning[39m[90m                          [39m [90m0.23s[39m  
+1596:  [32;1m✓[39;22m[90m [39m[90maccept ticket already accepted warning[39m[90m                              [39m [90m0.17s[39m  
+3271:  [90mTests:[39m    [31;1m1 failed[39;22m[90m,[39m[39m [39m[33;1m2 risky[39;22m[90m,[39m[39m [39m[32;1m2655 passed[39;22m[90m (8574 assertions)[39m

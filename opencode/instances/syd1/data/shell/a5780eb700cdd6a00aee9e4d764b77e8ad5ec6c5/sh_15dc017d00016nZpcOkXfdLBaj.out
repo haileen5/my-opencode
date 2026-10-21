@@ -1,0 +1,50 @@
+  [32;1m✓[39;22m[90m [39m[90mdifferent namespaces are isolated[39m[90m                                   [39m [90m0.01s[39m  
+  [32;1m✓[39;22m[90m [39m[90mbatch deduplicates same namespace[39m[90m                                   [39m [90m0.01s[39m  
+  [32;1m✓[39;22m[90m [39m[90mremember returns closures result[39m[90m                                    [39m [90m0.01s[39m  
+
+  [39;41;1m FAIL [39;49;22m[39m Tests\Unit\PhpConstraintTest[39m
+  [31;1m⨯[39;22m[90m [39m[90mexactly three locked packages block PHP 8.6[39m[90m                         [39m [90m0.05s[39m  
+  [32;1m✓[39;22m[90m [39m[90mAGENTS.md names every package that blocks PHP 8.6[39m[90m                   [39m [90m0.02s[39m  
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Unit\PersianNormalizerTest[39m
+  [32;1m✓[39;22m[90m [39m[90mnormalizeForSearch trims and collapses whitespace[39m[90m                   [39m [90m0.01s[39m  
+  [32;1m✓[39;22m[90m [39m[90mescapeLikeWildcards escapes underscores[39m
+  [32;1m✓[39;22m[90m [39m[90mnormalize is idempotent[39m
+  [32;1m✓[39;22m[90m [39m[90mescapeLikeWildcards returns text unchanged when no wildcards present[39m
+  [32;1m✓[39;22m[90m [39m[90mnormalizeForQuery combines normalize and escape for Persian text with wildcards[39m
+  [32;1m✓[39;22m[90m [39m[90mnormalize converts Arabic Yeh and Kaf to Persian[39m
+  [32;1m✓[39;22m[90m [39m[90mescapeLikeWildcards escapes percent signs[39m
+  [32;1m✓[39;22m[90m [39m[90mnormalize handles mixed strings correctly[39m
+  [32;1m✓[39;22m[90m [39m[90mnormalizeForQuery escapes wildcards and converts Persian digits[39m
+  [32;1m✓[39;22m[90m [39m[90mnormalize converts ZWNJ and ZWJ to spaces[39m
+  [32;1m✓[39;22m[90m [39m[90mescapeLikeWildcards escapes both wildcards in mixed text[39m
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Unit\PersianNormalizerExtraTest[39m
+  [32;1m✓[39;22m[90m [39m[90mpersian normalizer handles additional mixed characters[39m[90m              [39m [90m0.02s[39m  
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Unit\JalaliDateRangeTest[39m
+  [32;1m✓[39;22m[90m [39m[90mrange returns null when the range is inverted[39m[90m                       [39m [90m0.02s[39m  
+  [32;1m✓[39;22m[90m [39m[90ma single digit component is rejected[39m[90m                                [39m [90m0.02s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe last day of a thirty day esfand[39m[90m                                 [39m [90m0.01s[39m  
+  [32;1m✓[39;22m[90m [39m[90man unparseable string returns null[39m[90m                                  [39m [90m0.01s[39m  
+  [32;1m✓[39;22m[90m [39m[90mend of day returns the last second of the day[39m[90m                       [39m [90m0.02s[39m  
+  [32;1m✓[39;22m[90m [39m[90ma valid jalali date parses to the start of that day[39m[90m                 [39m [90m0.02s[39m  
+--
+  [32;1m✓[39;22m[90m [39m[90mradif has many persons[39m[90m                                              [39m [90m0.11s[39m  
+  [32;1m✓[39;22m[90m [39m[90mradif allows mass assignment[39m[90m                                        [39m [90m0.08s[39m  
+  [32;1m✓[39;22m[90m [39m[90mtahsil has many persons[39m[90m                                             [39m [90m0.10s[39m  
+  [32;1m✓[39;22m[90m [39m[90mtahsil allows mass assignment[39m[90m                                       [39m [90m0.08s[39m  
+  [31m────────────────────────────────────────────────────────────────────────────[39m  
+  [41;1m FAILED [49;22m [1mTests\Unit\PhpConstraintTest[22m [90m>[39m exactly three locked packages bloc…   
+[39;1m  Failed asserting that two arrays are identical.
+  [39;22m[32m Array &0 [[39m[39;1m
+  [39;22m[32m     'brianium/paratest' => 'dev',[39m[39;1m
+  [39;22m[31m-    'nette/schema' => 'production',[39m[39;1m
+  [39;22m[31m-    'nette/utils' => 'production',[39m[39;1m
+  [39;22m[32m ][39m[39;1m
+  [39;22m
+
+  at [32mtests/Unit/PhpConstraintTest.php[39m:[32m53[39m
+     49▕     return $blocking;
+     50▕ }
+     51▕ 
