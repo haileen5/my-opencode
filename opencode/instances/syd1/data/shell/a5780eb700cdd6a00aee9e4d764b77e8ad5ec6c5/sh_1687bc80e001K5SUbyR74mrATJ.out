@@ -1,0 +1,5 @@
+Tests\Feature\AccessibilityInfrastructureTest
+Tests\Feature\LayoutHeadTest
+Tests\Feature\MaryUiMirrorTest
+Tests\Feature\SidebarActiveLinkTest
+Tests\Feature\SidebarPermissionsTest

@@ -1,0 +1,30 @@
+  [32;1m✓[39;22m[90m [39m[90mexactly the link for this page is active with data set "/units/char[39m[90m…[39m [90m0.07s[39m  
+  [32;1m✓[39;22m[90m [39m[90mexactly the link for this page is active with data set "/maps/unit"[39m[90m [39m [90m0.07s[39m  
+  [32;1m✓[39;22m[90m [39m[90mexactly the link for this page is active with data set "/maps/route[39m[90m…[39m [90m0.07s[39m  
+  [32;1m✓[39;22m[90m [39m[90mexactly the link for this page is active with data set "/dashboard"[39m[90m [39m [90m0.07s[39m  
+  [32;1m✓[39;22m[90m [39m[90mexactly the link for this page is active with data set "/reports/ti[39m[90m…[39m [90m0.07s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe link list matches the rendered sidebar[39m[90m                          [39m [90m0.14s[39m  
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\AccessibilityInfrastructureTest[39m
+  [32;1m✓[39;22m[90m [39m[90msortable headers bind enter and space to the same action as the cli[39m[90m…[39m [90m0.14s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe layout offers a skip link that targets the main region[39m[90m          [39m [90m0.12s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe skip link is hidden until it takes focus[39m[90m                        [39m [90m0.13s[39m  
+  [32;1m✓[39;22m[90m [39m[90minactive sidebar links are not marked as current[39m[90m                    [39m [90m0.15s[39m  
+  [32;1m✓[39;22m[90m [39m[90mevery hardware page checkbox has an accessible name[39m[90m                 [39m [90m0.16s[39m  
+  [32;1m✓[39;22m[90m [39m[90mticket creation validation errors are announced[39m[90m                     [39m [90m0.14s[39m  
+  [32;1m✓[39;22m[90m [39m[90msorting another column moves the announcement[39m[90m                       [39m [90m0.14s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe sorted header announces ascending and is keyboard reachable[39m[90m     [39m [90m0.13s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe active sidebar link is marked as the current page[39m[90m               [39m [90m0.15s[39m  
+  [32;1m✓[39;22m[90m [39m[90monly one sidebar link claims the current page[39m[90m                       [39m [90m0.34s[39m  
+  [32;1m✓[39;22m[90m [39m[90mtoast renders inside a polite live region[39m[90m                           [39m [90m0.12s[39m  
+  [32;1m✓[39;22m[90m [39m[90mlogin validation errors are announced[39m[90m                               [39m [90m0.09s[39m  
+  [32;1m✓[39;22m[90m [39m[90mevery ticket inbox checkbox has an accessible name[39m[90m                  [39m [90m0.17s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe active link keeps the class mary menu sub reads[39m[90m                 [39m [90m0.15s[39m  
+  [32;1m✓[39;22m[90m [39m[90mchange password validation errors are announced[39m[90m                     [39m [90m0.11s[39m  
+  [32;1m✓[39;22m[90m [39m[90mnon sortable headers get no affordances[39m[90m                             [39m [90m0.13s[39m  
+  [32;1m✓[39;22m[90m [39m[90mthe sidebar is a labelled navigation landmark[39m[90m                       [39m [90m0.12s[39m  
+
+  [90mTests:[39m    [32;1m46 passed[39;22m[90m (388 assertions)[39m
+  [90mDuration:[39m [39m7.65s[39m
+  [90mRandom Order Seed:[39m [39m1792754287[39m
+

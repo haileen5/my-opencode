@@ -1,0 +1,6 @@
+ resources/views/components/layouts/app.blade.php |  11 +-
+ tests/e2e/theme/sidebar-active-contrast.spec.ts  | 228 +++++++++++++++++++++++
+ 2 files changed, 238 insertions(+), 1 deletion(-)
+[fix/1220-neutral-active-menu b7f49b8c] fix(#1220): use daisyUI neutral pair for the active sidebar item
+ 2 files changed, 238 insertions(+), 1 deletion(-)
+ create mode 100644 tests/e2e/theme/sidebar-active-contrast.spec.ts

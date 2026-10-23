@@ -1,0 +1,13 @@
+Preparing worktree (new branch 'evidence/1220-sidebar-contrast')
+HEAD is now at 621009a4 Merge pull request #1222 from hailyn3/fix/1221-map-host-wire-key
+total 348
+drwxr-xr-x 2 runner runner  4096 Oct 23 11:19 .
+drwxr-xr-x 3 runner runner  4096 Oct 23 11:19 ..
+-rw-r--r-- 1 runner runner 42528 Oct 23 11:19 cupcake-after.png
+-rw-r--r-- 1 runner runner 42024 Oct 23 11:19 cupcake-before.png
+-rw-r--r-- 1 runner runner 41118 Oct 23 11:19 dark-after.png
+-rw-r--r-- 1 runner runner 41201 Oct 23 11:19 dark-before.png
+-rw-r--r-- 1 runner runner 41402 Oct 23 11:19 fantasy-after.png
+-rw-r--r-- 1 runner runner 40675 Oct 23 11:19 fantasy-before.png
+-rw-r--r-- 1 runner runner 40844 Oct 23 11:19 light-after.png
+-rw-r--r-- 1 runner runner 40280 Oct 23 11:19 light-before.png
