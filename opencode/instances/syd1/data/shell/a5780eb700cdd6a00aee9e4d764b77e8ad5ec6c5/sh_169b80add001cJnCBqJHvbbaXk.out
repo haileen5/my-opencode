@@ -1,0 +1,8 @@
+36:                            class: $persist(window.matchMedia('(prefers-color-scheme: dark)').matches ? '{{ $darkClass }}' : '{{ $lightClass }}').as('mary-class'),
+39:                                    this.$refs.sun.classList.add('swap-off');
+40:                                    this.$refs.sun.classList.remove('swap-on');
+41:                                    this.$refs.moon.classList.add('swap-on');
+42:                                    this.$refs.moon.classList.remove('swap-off');
+47:                                document.documentElement.setAttribute('data-theme', this.theme)
+67:                    document.documentElement.setAttribute("data-theme", localStorage.getItem("mary-theme")?.replaceAll("\"", ""))
+68:                    document.documentElement.setAttribute("class", localStorage.getItem("mary-class")?.replaceAll("\"", ""))

@@ -1,0 +1,36 @@
+===
+canonical/beta:resources/css/app.css:33
+===
+31 → [data-theme=dark] *),
+32 → [data-theme=synthwave] *),
+33 → [data-theme=coffee] *),
+34 → [data-theme=luxury] *)
+167 → [data-theme="dark"].stitch-bg::before,
+168 → [data-theme="synthwave"].stitch-bg::before,
+223 → [data-theme="dark"] .stitch-gradient-text {
+409 → [data-theme="dark"] .stitch-bg-fixed,
+410 → [data-theme="synthwave"] .stitch-bg-fixed,
+411 → [data-theme="coffee"] .stitch-bg-fixed,
+424 → [data-theme="fantasy"] .stitch-bg-fixed {
+436 → [data-theme="luxury"] .stitch-bg-fixed {
+468 → [data-theme="light"] .stitch-blob.blob-1,
+469 → [data-theme="fantasy"] .stitch-blob.blob-1,
+470 → [data-theme="luxury"]) .stitch-blob.blob-1 {
+473 → [data-theme="light"] .stitch-blob.blob-2,
+474 → [data-theme="fantasy"] .stitch-blob.blob-2,
+475 → [data-theme="luxury"]) .stitch-blob.blob-2 {
+478 → [data-theme="light"] .stitch-blob.blob-3,
+479 → [data-theme="fantasy"] .stitch-blob.blob-3,
+480 → [data-theme="luxury"]) .stitch-blob.blob-3 {
+485 → [data-theme="dark"] .stitch-blob.blob-1,
+486 → [data-theme="synthwave"] .stitch-blob.blob-1,
+487 → [data-theme="coffee"] .stitch-blob.blob-1,
+491 → [data-theme="dark"] .stitch-blob.blob-2,
+492 → [data-theme="synthwave"] .stitch-blob.blob-2,
+493 → [data-theme="coffee"] .stitch-blob.blob-2,
+497 → [data-theme="dark"] .stitch-blob.blob-3,
+498 → [data-theme="synthwave"] .stitch-blob.blob-3,
+499 → [data-theme="coffee"] .stitch-blob.blob-3,
+505 → [data-theme="luxury"] .stitch-blob.blob-1 {
+508 → [data-theme="luxury"] .stitch-blob.blob-2 {
+511 → [data-theme="luxury"] .stitch-blob.blob-3 {

@@ -1,0 +1,16 @@
+177:    const HR_CHART_COLORS = {
+185:        const scheme = (style.colorScheme || '').includes('dark') ? 'dark' : 'light';
+189:            colors: HR_CHART_COLORS[scheme],
+===
+116:- **Theme poles** (#1224) — `light_theme` / `dark_theme`, one daisyUI theme each, from
+117:  `App\Support\ThemeFamilies` (light: `light, cupcake, fantasy`; dark: `dark, synthwave, coffee,
+118:  luxury`; defaults `fantasy`/`dark`). The header `<x-theme-toggle>` cycles between exactly those
+124:**Enabling a daisyUI theme** touches four places that must agree (`ThemeFamilies` is the source of
+127:1. `ThemeFamilies::LIGHT`/`DARK` + `LABELS` — validation, the two selects, the toggle;
+128:2. `resources/css/app.css` — the `themes:` list, the `@custom-variant dark` selector list when it is a
+129:   dark pole, the `[data-theme=…] .stitch-bg-fixed` group, and the `:not([data-theme=…])` blob chain.
+131:   backdrop (2.60:1) — the #1224 sweep caught it;
+132:3. `THEMES` in `tests/e2e/theme/theme-helpers.ts`;
+133:4. `tests/e2e/theme/sweep.spec.ts` fails on any sub-threshold surface, so the table stays honest.
+135:The split is measured, not aesthetic: daisyUI declares `color-scheme` per theme, and the e2e suite
+136:asserts each select's options agree with their theme's own `color-scheme`.

@@ -1,0 +1,25 @@
+          const darkSelector =
+            root === ":root" ? ":root:not([data-theme])" : `${root}:not([data-theme])`
+          addBase({
+            "@media (prefers-color-scheme: dark)": { [darkSelector]: themesObject[themeName] },
+          })
+        }
+      })
+
+      // other themes
+      themeArray.forEach((themeOption) => {
+        const [themeName] = themeOption.split(" ")
+        applyTheme(themeName, [])
+      })
+    }
+
+    return { include, exclude, prefix }
+  }
+})()
+===INDEX===
+2:import { pluginOptionsHandler } from "./functions/pluginOptionsHandler.js"
+6:import themesObject from "./theme/object.js"
+10:  (options) => {
+16:      } = pluginOptionsHandler(options, addBase, themesObject, version)
+/tmp/daisy47/package/imports.js
+/tmp/daisy47/package/index.js

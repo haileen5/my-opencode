@@ -1,0 +1,7 @@
+v1 data-theme blocks: [
+  'fantasy', 'light',
+  'dark',    'synthwave',
+  'coffee',  'cupcake',
+  'fantasy', 'luxury'
+]
+duplicate: [ 'fantasy' ]
