@@ -1,7 +1,0 @@
-Code Style (Pint)	pending	0	https://github.com/asgarimehdi/h-dashboard/actions/runs/39945725882/job/120387786090	
-Tests & Coverage	pending	0	https://github.com/asgarimehdi/h-dashboard/actions/runs/39945725882/job/120387785942	
-Typecheck (Playwright specs, informational)	pass	13s	https://github.com/asgarimehdi/h-dashboard/actions/runs/39945725882/job/120387786052	
-E2E Tests (Playwright)	pending	0	https://github.com/asgarimehdi/h-dashboard/actions/runs/39945725882/job/120387786161	
-PHP 8.6 Preview (non-blocking)	pending	0	https://github.com/asgarimehdi/h-dashboard/actions/runs/39945725882/job/120387786321	
-PHPStan Static Analysis	pending	0	https://github.com/asgarimehdi/h-dashboard/actions/runs/39945725882/job/120387786454	
-Mutation Testing	skipping	0	https://github.com/asgarimehdi/h-dashboard/actions/runs/39945725882/job/120387787550	

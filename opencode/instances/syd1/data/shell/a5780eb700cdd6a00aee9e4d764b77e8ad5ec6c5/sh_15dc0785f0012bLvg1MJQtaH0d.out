@@ -1,8 +1,0 @@
-{"tool":"pint","result":"passed"} M .env.testing
-M  app/Http/Controllers/Api/TicketCommentController.php
-M  app/Models/TicketComment.php
- M composer.lock
- M package-lock.json
-M  phpstan-baseline.neon
-M  tests/Feature/TicketCommentApiComprehensiveTest.php
-M  tests/Feature/TicketCommentTest.php

@@ -1,7 +1,0 @@
-Pint on staged PHP files...
-{"tool":"pint","result":"passed"}✅ Code style checked.
-[issue-1126-ncode-trgm f82d176b] Add a trigram index on persons.n_code so the four-branch search OR can bitmap
- 2 files changed, 109 insertions(+)
- create mode 100644 database/migrations/2026_10_18_000001_add_n_code_trgm_index_to_persons_table.php
-f82d176b Add a trigram index on persons.n_code so the four-branch search OR can bitmap
-ffecc299 Merge pull request #1127 from Shabakebehdasht/fix/1003-e2e-secure-cookie

@@ -1,3 +1,0 @@
-[#1220] dark: active oklch(0.92 0.004 286.32) on oklch(0.2115 0.012 254.09) = 13.92:1; header oklch(0.97807 0.029 256.847) on oklch(0.2115 0.012 254.09) = 16.44:1; headers=[{"text":"مدیریت سازمان","cls":"hover:text-inherit px-4 py-1.5 my-0.5 text-inherit bg-base-300","color":"oklch(0.97807 0.029 256.847)","spanColor":"oklch(0.97807 0.029 256.847)","hitTag":"svg","hitCls":{},"hitColor":"oklch(0.97807 0.029 256.847)","hitText":"","textFill":"oklch(0.97807 0.029 256.847)","opacity":"1","filter":"none","bg":"oklch(0.2115 0.012 254.09)","rect":{"x":1178,"y":388.40625,"width":252,"height":36,"top":388.40625,"right":1430,"bottom":424.40625,"left":1178}}]
-    test-results/theme-sidebar-active-contr-89e16-ral-pair-and-clears-WCAG-AA-chromium/test-failed-1.png
-  1 failed

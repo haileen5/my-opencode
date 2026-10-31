@@ -1,5 +1,0 @@
-  [39;41;1m FAIL [39;49;22m[39m Tests\Unit\PhpConstraintTest[39m
-  [41;1m FAILED [49;22m [1mTests\Unit\PhpConstraintTest[22m [90m>[39m exactly three locked packages bloc…   
-  [90mTests:[39m    [31;1m1 failed[39;22m[90m,[39m[39m [39m[33;1m2 risky[39;22m[90m,[39m[39m [39m[32;1m2655 passed[39;22m[90m (8574 assertions)[39m
-  [90mDuration:[39m [39m559.70s[39m
-EXIT:1

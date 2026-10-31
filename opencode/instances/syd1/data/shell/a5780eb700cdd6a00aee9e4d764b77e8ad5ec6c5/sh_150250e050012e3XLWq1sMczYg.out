@@ -1,2 +1,0 @@
- M tests/Feature/PersonSearchIndexTest.php
-?? database/migrations/2026_10_18_000001_add_n_code_trgm_index_to_persons_table.php

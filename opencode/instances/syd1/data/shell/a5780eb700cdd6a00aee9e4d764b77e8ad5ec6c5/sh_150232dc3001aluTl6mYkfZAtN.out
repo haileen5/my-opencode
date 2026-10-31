@@ -1,7 +1,0 @@
-h-dashboard-pgadmin	dpage/pgadmin4	443/tcp, 0.0.0.0:8082->80/tcp, [::]:8082->80/tcp
-h-dashboard-phpredisadmin	erikdubbelboer/phpredisadmin:latest	0.0.0.0:8083->80/tcp, [::]:8083->80/tcp
-h-dashboard-postgis	postgis/postgis:16-3.4	0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
-h-dashboard-redis	redis:latest	0.0.0.0:6379->6379/tcp, [::]:6379->6379/tcp
-                                                           version                                                           
------------------------------------------------------------------------------------------------------------------------------
- PostgreSQL 16.4 (Debian 16.4-1.pgdg110+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
